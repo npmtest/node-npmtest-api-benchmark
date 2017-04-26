@@ -1,6 +1,6 @@
 # npmtest-api-benchmark
 
-#### test coverage for  [api-benchmark (v0.4.2)](http://www.api-benchmark.com/)  [![npm package](https://img.shields.io/npm/v/npmtest-api-benchmark.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-api-benchmark) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-api-benchmark.svg)](https://travis-ci.org/npmtest/node-npmtest-api-benchmark)
+#### basic test coverage for  [api-benchmark (v0.4.2)](http://www.api-benchmark.com/)  [![npm package](https://img.shields.io/npm/v/npmtest-api-benchmark.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-api-benchmark) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-api-benchmark.svg)](https://travis-ci.org/npmtest/node-npmtest-api-benchmark)
 
 #### A simple nodejs tool to measure and compare performances of api services
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-api-benchmark/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-api-benchmark/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-api-benchmark/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-api-benchmark/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-api-benchmark/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-api-benchmark/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-api-benchmark/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-api-benchmark/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-api-benchmark/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-api-benchmark/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-api-benchmark/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-api-benchmark/build/coverage.html/index.html)
 
@@ -99,7 +99,8 @@
         "pretest": "jshint lib test templates index.js",
         "test": "node test/index"
     },
-    "version": "0.4.2"
+    "version": "0.4.2",
+    "bin": {}
 }
 ```
 
